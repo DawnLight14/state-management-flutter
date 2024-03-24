@@ -13,6 +13,7 @@ b. Stateful Widgets: These are widgets whose properties (or state) can change ov
 ====
 
 Some common state management in flutter include:
+
 a. SetState: The simplest form of state management involves using the setState() method provided by the State class to update the state of a widget, suitable for managing the state of simple widgets and small applications.
 
 b. InheritedWidget: InheritedWidget is a mechanism for sharing data (or state) across the widget tree efficiently that allows data to be passed down the widget hierarchy to descendant widgets without explicitly passing it through constructor arguments, useful for managing shared state or data that needs to be accessible by many widgets in the application.
